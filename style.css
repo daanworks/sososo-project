@@ -1,0 +1,102 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.main {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-image {
+    width: 250px;
+    text-align: center;
+    filter: opacity(20%);
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 400px;
+    /* border: 1px solid black; */
+    
+}
+
+.players { 
+    width: 500px;
+    height: 400px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.choicescpu {
+    width: 80px;
+    display: block;
+    margin: 30px;
+}
+
+.choices {
+    width: 80px;
+    display: block;
+    margin: 30px;
+}
+
+.choices:hover {
+    transform: scale(1.1);
+    cursor: crosshair;
+}
+
+.player1 {
+    font-size: 12px;
+    width: 70px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: 0;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+.player1:hover {
+    cursor: pointer;
+}
+
+.cpu {
+    font-size: 12px;
+    width: 70px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: 0;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+.pickone {
+    font-size: 8px;
+    filter: opacity(50%);
+}
+
+
+.credits { 
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 2px;
+    text-align: center;
+    filter: opacity(50%);
+    font-size: 8px;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+    
+}
