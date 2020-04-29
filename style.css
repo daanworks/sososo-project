@@ -9,9 +9,28 @@ h1, h3 {
 
 .main {
     width: 250px;
+    height: 250px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.main::after {
+    content: "";
+    background: url("/img/image.jpg");
+    width: 250px;
+    height: 250px;
+    opacity: 0.1;
+    top: 120px;
+    left: auto;
+    bottom: 0;
+    right: auto;
+    position: absolute;
+    z-index: -1;
+    background-image: url("/img/main.png");
+    background-size: cover;
+    background-position: center;
+  }
+  
 
 .main-image {
     width: 250px;
@@ -51,7 +70,7 @@ h1, h3 {
 
 .choices:hover {
     transform: scale(1.1);
-    cursor: crosshair;
+    cursor: pointer;
 }
 
 .player1 {
@@ -75,6 +94,17 @@ h1, h3 {
     background-color: whitesmoke;
     border: 0;
     font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+.cpu:focus {
+    outline: 0;
+}
+
+.winornot {
+    
+    text-align: center;
+    font-size: 40px;
     font-weight: bold;
 }
 
